@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+
+<!-- Mirrored from corpthemes.com/html/dhc/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Nov 2018 09:35:34 GMT -->
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>Blog </title>
+
+	<meta name="author" content="themsflat.com">
+
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Boostrap style -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/bootstrap.min.css">
+
+	<!-- Ionicons style -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/ionicons.min.css">
+
+	<!-- Theme style -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/style.css">
+
+	<!-- Reponsive -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/responsive.css">
+
+	<!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="../static/stylesheets/colors/color1.css" id="colors">
+
+	<!-- Favicon -->
+    <link href="../static/icon/cropped-phone-192x192.jpg" rel="icon">
+    <link href="../static/icon/cropped-phone-180x180.jpg" rel="icon">
+    <link href="../static/icon/favicon.jpg" rel="shortcut icon">
+
+</head>
+	<body class="header_sticky">
+<!-- Javascript -->
+	    <script type="text/javascript" src="../static/javascript/jquery.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/easing.js"></script>
+	    <script type="text/javascript" src="../static/javascript/waypoints.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/jquery.flexslider-min.js"></script>
+    	<script type="text/javascript" src="../static/javascript/owl.carousel.js"></script>
+
+    	<script type="text/javascript" src="../static/javascript/jquery.cookie.js"></script>
+    	<script type="text/javascript" src="../static/javascript/switcher.js"></script>
+
+	    <script type="text/javascript" src="../static/javascript/smoothscroll.js"></script>
+	    <script type="text/javascript" src="../static/javascript/main.js"></script>
+		<div class="boxed">
+
+		<!-- Preloader -->
+		<div class="preloader">
+			<div class="clear-loading loading-effect-2">
+				<span></span>
+			</div>
+		</div><!-- /.preloader -->
+
+		<div class="top header-style1">
+			<div class="container">
+				<div class="content-left">
+					<ul class="flat-infomation">
+						<li class="phone">
+							<i class="fa fa-phone"></i>Call us: +176 3 3501 347 | +254 732 994 999
+						</li>
+						<li class="email">
+							<i class="fa fa-envelope"></i>
+							<a href="#" title="">Email: info@mashariki.com</a>
+						</li>
+					</ul><!-- /.flat-infomation -->
+				</div><!-- /.content-left -->
+				<div class="content-right">
+					<ul class="flat-social">
+						<li class="facebook">
+							<a href="#" title=""><i class="fa fa-facebook"></i></a>
+						</li>
+						<li class="twitter">
+							<a href="#" title=""><i class="fa fa-twitter"></i></a>
+						</li>
+						<li class="google-plus">
+							<a href="#" title=""><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li class="linkedin">
+							<a href="#" title=""><i class="fa fa-linkedin"></i></a>
+						</li>
+					</ul><!-- /.flat-social -->
+					<div class="info-top-right">
+						<a href="#" class="appoinment" title="">REQUEST A QUOTE</a>
+					</div>
+				</div><!-- /.content-right -->
+			</div><!-- /.container -->
+		</div><!-- /.top -->
+
+		<section class="header style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-wrap">
+							<div id="logo" class="logo">
+								 <h2 style="font-size: 22px" class="heading1">Mashariki Limited-Kenya</h2>
+							</div><!-- /.logo -->
+							<div class="nav-wrap">
+							    <div class="btn-menu">
+							        <span></span>
+							    </div><!-- //mobile menu button -->
+							    <nav id="mainnav" class="mainnav">
+							    	<ul class="menu">
+							    		<li>
+							    			<a href="{{ url_for('home') }}" title="">Home</a>
+							    			<ul class="submenu">
+
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('company') }}" title="">Company</a>
+							    			<ul class="submenu">
+							    				<li>
+							    					<a href="{{ url_for('about') }}" title="">About Us</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('company') }}" title="">Company Overview</a>
+							    				</li>
+
+							    				<li>
+							    					<a href="about-v3.html" title="">Our Team</a>
+							    				</li>
+
+							    				<li>
+							    					<a href="faq.html" title="">FAQ</a>
+							    				</li>
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('services') }}" title="">Our Services</a>
+							    			<ul class="submenu">
+							    				<li>
+							    					<a href="{{ url_for('services') }}" title="">ICT Consulting,Solutions & Services</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('services') }}" title="">Insurance Solutions</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('services') }}" title="">Private Security Solutions</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('services') }}" title="">Transport & Logistics</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('services') }}" title="">M-Pesa Agencies</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">E-Commerse Solutions</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Corporate Training $ Consultancy</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Real estate development & Restoration</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Retail & Wholesale goods supplies</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Farming & Horticulture</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Corporates solutions outsourcing</a>
+							    				</li>
+                                                <li>
+							    					<a href="{{ url_for('services') }}" title="">Corporate suites & Residential accomodations</a>
+							    				</li>
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('quote') }}" title="">Request Quote</a>
+							    		</li>
+							    		<li class="active">
+							    			<a href="{{ url_for('blog') }}" title="">Blog</a>
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('contact') }}" title="">Contact</a>
+							    		</li>
+							    	</ul><!-- /.menu -->
+							    </nav><!-- /.mainnav -->
+							</div><!-- /.nav-wrap -->
+						</div><!-- /.header-wrap -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.header style1 -->
+
+		<section class="page-title style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="breadcrumbs">
+							<h1 class="page-title-heading">Blog</h1>
+							<!-- /.trail-items -->
+						</div><!-- /.breadcrumbs -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.page-title style1 -->
+
+		<section class="main-blog-single page-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="content-area">
+							<div class="post-wrap">
+								<article class="blog-single">
+									<div class="featured-post">
+										<a href="#" title="">
+											<img src="../static/images/blog/blog.1.jpeg" alt="">
+										</a>
+									</div><!-- /.featured-post -->
+									<div class="content-post">
+										<div class="entry-post">
+											<ul class="entry-meta">
+												<li class="post-date">
+													Dec 19, 2018
+												</li>
+												<li class="post-author">
+													<span>By <a href="#" title="">admin</a></span>
+												</li>
+												<li class="post-categories">
+													<a href="#" title="">HP EliteDesk Mini PC</a>
+												</li>
+											</ul>
+											<div class="clearfix">
+											</div>
+											<h2 class="entry-title">
+												<a href="https://biztechmagazine.com/article/2018/11/review-hp-elitedesk-mini-pc-big-force-small-package" title="">The smallest of HP’s new Mini PC line </a>
+											</h2>
+										</div>
+										<p>
+											The HP EliteDesk 800 G4 Desktop Mini Business PC carries a lot of power in a small package. The version I tested measures about 7 inches by 7 inches and is 1.35 inches thick, but has as much expandability as many larger systems, with seven USB ports, Gigabit Ethernet and two DisplayPort 1.2 monitor ports.
+										</p>
+										<p>
+											The Mini also includes a slot to add a USB Type-C display, a Thunderbolt cable, fiber network card and more. There are also two internal NVMe M.2 slots for storage and one for WLAN, as well as room for a 2.5-inch SATA solid-state drive. The PC can be mounted on the back of a monitor or in a vertical stand.
+                                            The system I tested came with an Intel Core i5/8500 processor, 8 gigabytes of RAM and a 256GB NVMe SSD, but it can be equipped with a Core i7 CPU, up to 32GB of RAM and two NVMe M.2 SSDs (or a SATA SSD at lower cost), as well as a discrete video card, which means it can handle content creation for high-resolution graphics, virtual reality or other high-performance tasks. Configuration was very straightforward, with HP-specific update apps and enhanced security capabilities, as well.
+										</p>
+										<p>
+											The system was responsive and snappy, with the pre­installed Microsoft Office apps and other test applications working well at the 4k resolution of the DisplayPort monitor. The NVMe SSD provided very quick data transfers and low latency, with updates and reboots happening very quickly.
+                                            Along with the EliteDesk 800 and Windows, HP offers a set of security tools that go well beyond the basics, including HP Sure Click, HP Sure Start Gen4, HP Sure Run, HP Sure Recover, HP BIOSphere Gen4, Intel Identity Protection Technology, and multifactor authentication features. These include an optional fingerprint reader or webcam, both Windows Hello certified.
+										</p>
+									</div><!-- /.content-post -->
+								</article><!-- /.blog-post -->
+								<div class="main-single">
+									<div class="navigation navigation-single">
+										<ul class="nav-links">
+											<li>
+												<a href="https://blogs.cisco.com/analytics-automation" title="">
+													<span class="meta-nav">Previous Post</span>
+													 Analytics & Automation
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div id="comment" class="comment-area">
+										<div class="comment-respond">
+											<h3 class="comment-reply-title">
+												LEAVE REPLY
+											</h3>
+											<form action="#" method="get" class="comment-form" accept-charset="utf-8">
+												<p class="comment-notes">
+													<span id="email-notes">Your email address will not be published.</span>
+													 Required fields are marked
+													 <span class="required">*</span>
+												</p>
+												<p class="comment-form-comment">
+													<label for="comment-reply">Comment</label>
+													<textarea id="comment-reply" name="comment" cols="45" rows="8" aria-required="true" maxlength="2550" required="required">
+													</textarea>
+												</p>
+												<p class="comment-form-author">
+													<label for="author">Name <span class="required">*</span></label>
+													 <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required="true" required="required">
+												</p>
+												<p class="comment-form-email">
+													<label for="email">Email <span class="required">*</span></label>
+													 <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required="true" required="required">
+												</p>
+												<p class="comment-form-url">
+													<label for="url">Website</label>
+													<input id="url" name="url" type="url" value="" size="30" maxlength="200">
+												</p>
+												<p class="form-submit">
+													<input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+												</p>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div><!-- /.post-wrap -->
+						</div><!-- /.content-area -->
+
+						<div class="widget-area">
+							<div class="sidebar">
+								<div class="widget widget-search">
+									<form role="search" method="get" class="search-form" action="#">
+										<label>
+											<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+										</label>
+										<input type="submit" class="search-submit" value="Search">
+									</form><!-- /.search-form -->
+								</div><!-- /.widget widget-search -->
+								<div class="widget widget-recent">
+									<h4 class="widget-title">Recent Posts</h4>
+									<ul>
+										<li>
+											<a href="https://www.datacenterknowledge.com/industry-perspectives/next-wave-integrated-it-departments-dataops" title="">The Next Wave in Integrated IT Departments: DataOps</a>
+										</li>
+										<li>
+											<a href="https://www.datacenterknowledge.com/industry-perspectives/funny-thing-happened-way-cloud" title="">A Funny Thing Happened on the Way to the Cloud</a>
+										</li>
+										<li>
+											<a href="http://fountnhead.blogspot.com/2018/05/4-warning-signs-integration-wall-is.html" title="">4 Warning Signs an Integration Wall is Approaching
+</a>
+										</li>
+										<li>
+											<a href="https://www.gottabemobile.com/how-to-take-an-ecg-on-the-apple-watch/" title="">How to Take an ECG on the Apple Watch</a>
+										</li>
+									</ul>
+								</div><!-- /.widget widget-recent -->
+								<div class="widget widget-recent-news">
+									<h4 class="widget-title">Popular Post</h4>
+									<ul class="recent-news">
+										<li>
+											<div class="thumb">
+												<a href="#" title="">
+													<img src="../static/images/blog/blog-sm-1.jpg" alt="">
+												</a>
+											</div>
+											<div class="text">
+												<h5><a href="https://www.jstor.org/stable/40904912?seq=1#page_scan_tab_contents" title="">Liberalisation of air cargo industry</a></h5>
+												<p class="date">Dec 19, 2018</p>
+											</div>
+										</li>
+										<li>
+											<div class="thumb">
+												<a href="#" title="">
+													<img src="../static/images/blog/blog-sm-2.jpg" alt="">
+												</a>
+											</div>
+											<div class="text">
+												<h5><a href="https://www.precisionsoftware.com/th/resources/blog/-/blogs/global-trade-execution-why-a-single-solution-is-a-superior-strate-2?p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=140023946&_33_redirect=https%3A%2F%2Fwww.precisionsoftware.com%2Fth%2Fresources%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_pos%3D1%26p_p_col_count%3D2%26_33_advancedSearch%3Dfalse%26_33_keywords%3D%26_33_delta%3D5%26p_r_p_564233524_resetCur%3Dfalse%26_33_cur%3D5%26_33_struts_action%3D%252Fblogs%252Fview%26_33_andOperator%3Dtrue&_33_blogDetail=true&_33_bgImage=%2Fimage%2Fblogs%2Fentry%3Fimg_id%3D142753110" title="">Single solution for shipping process</a></h5>
+												<p class="date">Dec 19, 2018</p>
+											</div>
+										</li>
+										<li>
+											<div class="thumb">
+												<a href="#" title="">
+													<img src="../static/images/blog/blog-sm-3.jpg" alt="">
+												</a>
+											</div>
+											<div class="text">
+												<h5><a href="#" title="">Mobile Technology and Transportation</a></h5>
+												<p class="date">Dec 19, 2018</p>
+											</div>
+										</li>
+									</ul><!-- /.recent-news -->
+								</div><!-- /.widget widget-rencent-news -->
+								<div class="widget widget-categories">
+									<h4 class="widget-title">Categories</h4>
+									<ul>
+										<li>
+											<a href="#" title="">ICT Consulting</a>
+										</li>
+										<li>
+											<a href="#" title="">Insurance Solutions</a>
+										</li>
+										<li>
+											<a href="#" title="">Private Security</a>
+										</li>
+										<li>
+							    			<a href="" title="">Transport & Logistics</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">M-Pesa Agencies</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">E-Commerse Solutions</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporate Training $ Consultancy</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Real estate development & Restoration</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Retail & Wholesale goods supplies</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Farming & Horticulture</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporates solutions outsourcing</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporate suites & Residential accomodations</a>
+                                        </li>
+									</ul>
+								</div><!-- /.widget widget-categories -->
+							</div><!-- /.sidebar -->
+						</div><!-- /.widget-area -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.main-blog <-->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-widgets">
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget_text">
+								<h4 class="widget-title">About Us</h4>
+			                    <div class="textwidget">
+
+			                        <p>
+			                        Mashariki Limited is an independent service provider, delivering a wide range of services.
+			                        </p>
+			                    </div>
+			                    <div class="widget widget_socials">
+				                    <div class="socials">
+				                        <a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+				                        <a class="facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+				                        <a class="google" target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+				                        <a class="pinterest" target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+				                        <a class="dribbble" target="_blank" href="#"><i class="fa fa-dribbble"></i></a>
+				                    </div>
+				                </div>
+			                </div>
+						</div><!-- /.col-md-4 col-sm-6 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget-nav-menu">
+								<h4 class="widget-title">Our Serives</h4>
+								<ul class="menu-our-services">
+									<li>
+											<a href="#" title="">ICT Consulting</a>
+										</li>
+										<li>
+											<a href="#" title="">Insurance Solutions</a>
+										</li>
+										<li>
+											<a href="#" title="">Private Security</a>
+										</li>
+										<li>
+							    			<a href="" title="">Transport & Logistics</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">M-Pesa Agencies</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">E-Commerse Solutions</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporate Training $ Consultancy</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Real estate development & Restoration</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Retail & Wholesale goods supplies</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Farming & Horticulture</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporates solutions outsourcing</a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">Corporate suites & Residential accomodations</a>
+                                        </li>
+								</ul><!-- /.menu-our-services -->
+							</div><!-- /.widget widget-nav-menu -->
+						</div><!-- /.col-md-4 col-sm-6 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget-contact">
+								<h4 class="widget-title">Contact From</h4>
+								<form action="#" method="get" accept-charset="utf-8">
+									<div class="form-ft">
+										<div class="flat-wrap-field">
+											<div class="flat-one-half">
+												<input type="text" name="your name" placeholder="Name" required="">
+											</div>
+											<div class="flat-one-half">
+												<input type="email" name="your email" placeholder="Email" required="">
+											</div>
+										</div>
+										<p>
+											<textarea name="your-message" cols="40" rows="10" placeholder="Message"></textarea>
+										</p>
+										<p>
+											<button type="button" class="btn-contact-ft">Send Message</button>
+										</p>
+									</div><!-- /.form-ft -->
+								</form><!-- /form -->
+							</div><!-- /.widget widget-contact -->
+						</div><!-- /.col-md-4 col-sm-6 -->
+					</div><!-- /.footer-widgets -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</footer><!-- /footer -->
+
+		<section class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							<p>Coyright <i class="fa fa-copyright"></i>	2018 Mashariki Limited. All rights reserved.</p>
+						</div><!-- /.copyright -->
+						<a class="go-top">
+                            <i class="fa fa-chevron-up"></i>
+                        </a><!-- /.go-top -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.footer-bottom -->
+
+		</div><!-- boxed -->
+
+		<!-- Javascript -->
+	    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+	    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="javascript/easing.js"></script>
+	    <script type="text/javascript" src="javascript/waypoints.min.js"></script>
+	    <script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+    	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+
+    	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+    	<script type="text/javascript" src="javascript/switcher.js"></script>
+
+	    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+	    <script type="text/javascript" src="javascript/main.js"></script>
+
+	</body>
+
+<!-- Mirrored from corpthemes.com/html/dhc/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Nov 2018 09:35:48 GMT -->

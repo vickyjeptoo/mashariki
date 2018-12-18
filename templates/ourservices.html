@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+
+<!-- Mirrored from corpthemes.com/html/dhc/services-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Nov 2018 09:32:27 GMT -->
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>Our Services</title>
+
+	<meta name="author" content="themsflat.com">
+
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Boostrap style -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/bootstrap.min.css">
+
+	<!-- Theme style -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/style.css">
+
+	<!-- Reponsive -->
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/responsive.css">
+
+	<!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="../static/stylesheets/colors/color1.css" id="colors">
+
+	<!-- Favicon -->
+    <link href="../static/icon/cropped-phone-192x192.jpg" rel="icon">
+    <link href="../static/icon/cropped-phone-180x180.jpg" rel="icon">
+    <link href="../static/icon/favicon.jpg" rel="shortcut icon">
+
+</head>
+     <script type="text/javascript" src="../static/javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/javascript/easing.js"></script>
+    <script type="text/javascript" src="../static/javascript/parallax.js"></script>
+    <script type="text/javascript" src="../static/javascript/waypoints.min.js"></script>
+    <script type="text/javascript" src="../static/javascript/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../static/javascript/owl.carousel.js"></script>
+
+    <script type="text/javascript" src="../static/javascript/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../static/javascript/switcher.js"></script>
+
+    <script type="text/javascript" src="../static/javascript/smoothscroll.js"></script>
+    <script type="text/javascript" src="../static/javascript/main.js"></script>
+	<body class="header_sticky">
+
+		<div class="boxed">
+
+		<!-- Preloader -->
+		<div class="preloader">
+			<div class="clear-loading loading-effect-2">
+				<span></span>
+			</div>
+		</div><!-- /.preloader -->
+
+		<div class="top header-style1">
+			<div class="container">
+				<div class="content-left">
+					<ul class="flat-infomation">
+						<li class="phone">
+							<i class="fa fa-phone"></i>Call us: +176 3 3501 347 | +254 732 994 999
+						</li>
+						<li class="email">
+							<i class="fa fa-envelope"></i>
+							<a href="#" title="">Email: info@mashariki.com</a>
+						</li>
+					</ul><!-- /.flat-infomation -->
+				</div><!-- /.content-left -->
+				<div class="content-right">
+					<ul class="flat-social">
+						<li class="facebook">
+							<a href="#" title=""><i class="fa fa-facebook"></i></a>
+						</li>
+						<li class="twitter">
+							<a href="#" title=""><i class="fa fa-twitter"></i></a>
+						</li>
+						<li class="google-plus">
+							<a href="#" title=""><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li class="linkedin">
+							<a href="#" title=""><i class="fa fa-linkedin"></i></a>
+						</li>
+					</ul><!-- /.flat-social -->
+					<div class="info-top-right">
+						<a href="#" class="appoinment" title="">REQUEST A QUOTE</a>
+					</div>
+				</div><!-- /.content-right -->
+			</div><!-- /.container -->
+		</div><!-- /.top -->
+
+		<section class="header style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-wrap">
+							<div id="logo" class="logo">
+								<h2 style="font-size: 22px" class="heading1">Mashariki Limited-Kenya</h2>
+							</div><!-- /.logo -->
+							<div class="nav-wrap">
+							    <div class="btn-menu">
+							        <span></span>
+							    </div><!-- //mobile menu button -->
+							    <nav id="mainnav" class="mainnav">
+							    	<ul class="menu">
+							    		<li>
+							    			<a href="{{ url_for('home') }}" title="">Home</a>
+							    			<ul class="submenu">
+
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('company') }}" title="">Company</a>
+							    			<ul class="submenu">
+							    				<li>
+							    					<a href="{{ url_for('about') }}" title="">About Us</a>
+							    				</li>
+							    				<li>
+							    					<a href="{{ url_for('company') }}" title="">Company Overview</a>
+							    				</li>
+							    				<li>
+							    					<a href="about-v3.html" title="">Our Team</a>
+							    				</li>
+							    				<li>
+							    					<a href="about-v4.html" title="">Our Partner</a>
+							    				</li>
+							    				<li>
+							    					<a href="faq.html" title="">FAQ</a>
+							    				</li>
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li class="active">
+							    			<a href="{{ url_for('services') }}" title="">Our Services</a>
+							    			<ul class="submenu">
+							    				 <li>
+                                                     <a href="{{ url_for('services') }}" title="">ICT Consulting</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Insurance Solutions</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Private Security</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Transport & Logistics</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">M-Pesa Agencies</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">E-Commerse Solutions</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Corporate Training & Consultancy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Real Estate</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Retail & Wholesale goods supplies</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Farming & Horticulture</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Corporate Training solutions outsourcing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url_for('services') }}" title="">Corporate Suites & Residential accomodations</a>
+                                                </li>
+							    			</ul><!-- /.submenu -->
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('quote') }}" title="">Request Quote</a>
+							    		</li>
+							    		<li>
+							    			<a href="{{ url_for('blog') }}" title="">Blog</a>
+							    		</li>
+							    		<li>
+							    			<a href="contact.html" title="">Contact</a>
+							    		</li>
+							    	</ul><!-- /.menu -->
+							    </nav><!-- /.mainnav -->
+							</div><!-- /.nav-wrap -->
+						</div><!-- /.header-wrap -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.header style1 -->
+
+		<section class="page-title style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="breadcrumbs">
+							<h1 class="page-title-heading">Our Services</h1>
+							<ul class="trail-items">
+
+							</ul><!-- /.trail-items -->
+						</div><!-- /.breadcrumbs -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.page-title style1 -->
+
+		<section class="flat-row flat-imagebox style3">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/lady.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">ICT Consulting</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									As much as the truth of a conclusion depends on the quality of its premises, the quality of your ICT strategy will have a solid and profound impact on business achievements.
+                                    We integrate our expertise in strategic change, process improvement and technology to provide solutions to clients as they strive to improve service delivery.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/insurance.jpg" alt="" width="270" height="1200">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Insurance Solutions</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									We aren’t just insurance agents; we’re advocates. Our goal is to listen to you, help you identify risks and assess your insurance needs.
+                                    There is more to insurance than finding the cheapest coverage; you must first find the RIGHT coverage.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/security.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Private Security</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Personal safety, protection of assets and productivity remain common goals in everyone’s security plan. In the face of today’s threats, a good plan demands excellent performance.
+                                    n the face of today’s threats, a good plan demands excellent performance. When you hire us, you hire a team of security professionals
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+				</div><!-- /.row -->
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/imgbox-14.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Transport & Logistics</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Mashariki Limited is a medium-sized yet extremely vibrant transport solutions provider.
+                                    Over time, we have cut our niche as the preferred choice for high end companies seeking to outsource distribution and transport solutions on either a dedicated or ad-hoc basis.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/mpesa.png" alt="" width="230">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">M-Pesa Agencies</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									We are a safaricom authorized dealers,MPesa is a mobile money service based in Kenya. M is for Mobile while Pesa is a Swahili word for Money. ... It's also used to pay bills, buy airtime and save money, all through a mobile device. In addition, it can be used to access bank accounts.
+                                    Mpesa has no doubt become an inevitable part of our lives today from sending and receiving money,doing bank transactions,paying rent(Lipa Kodi),school fees(Lipa Karo) and shopping(Lipa Na Mpesa).
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/boardmeeting.jpg" alt=""width="350">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Corporate Training & Consultancy</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Earning new skills and finding better ways of conducting our daily affairs is one way of fulfilling this desire for continuous improvement.
+                                    Our mission, therefore,  is to help people learn.We specialize in providing training solutions for professionals and institutions.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+            <div class="row">
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/realestate.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Real Estate</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									 We offer professional services in Valuation of land, buildings, furniture, plant and machinery. The firm also specializes in Management, Selling and Letting of properties and Consultancy services in matters properties.
+                                     We operate within the confines of legal legislation that govern the practices of estate agency and valuation in Kenya.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/imgbox-13.png" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">E-Commerse Solutions</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									We offer services of buying and selling of goods and services using the internet, and the transfer of money and data to execute these transactions.
+                                    Also we offer skills provided in exchange for compensation. The service provider’s time can be purchased for a fee.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/wholesale.jpg" alt="" width="350">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Retail & Wholesale goods supplies</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									We offer retail and wholesale services.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+				</div><!-- /.row -->
+			</div>
+            <div class="row">
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/farming.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Farming & Horticulture</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									It is no secret that every industry is going digital as more and more people turn to the internet to satisfy their informational needs, as well as share experiences.
+                                    Providing information on planting and optimising output, giving farmers access to detailed information on type of seeds, planting methods, harvesting, often customised to fit your specific location
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/boardmeeting.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Corporate Training Solutions Outsourcing</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Earning new skills and finding better ways of conducting our daily affairs is one way of fulfilling this desire for continuous improvement.
+                                    Our mission, therefore,  is to help people learn.We specialize in providing training solutions for professionals and institutions.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+					<div class="col-sm-4">
+						<div class="height30"></div>
+						<div class="imagebox style3">
+							<div class="imagebox-image">
+								<a href="#" title="">
+									<img src="../static/images/page/house.jpg" alt="">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<div class="overlay"></div>
+								</a>
+							</div>
+							<div class="imagebox-header">
+								<h3 class="imagebox-title">
+									<a href="#" title="">Corporate Suites & Residential Accomodations</a>
+								</h3>
+							</div>
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Experience all the comforts of home. Save with our affordable prices, make A Reservation, view Listings.
+                                    Unforgettable trips start with affordable hosting. Find adventures nearby or in faraway places and access unique homes, experiences, and places.
+								</div>
+							</div>
+						</div><!-- /.imagebox style3 -->
+					</div><!-- /.col-sm-4 -->
+				</div><!-- /.row -->
+			</div>
+		</section><!-- /.flat-imagebox style3 -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-widgets">
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget_text">
+								<h4 class="widget-title">About Us</h4>
+			                    <div class="textwidget">
+			                        <!--<img src="images/logo-footer.png" alt="images">-->
+			                        <p>
+			                        Mashariki Limited Kenya is an independent service provider, delivering a wide range of technology and customer- specific  services.
+			                        </p>
+			                    </div>
+			                    <div class="widget widget_socials">
+				                    <div class="socials">
+				                        <a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+				                        <a class="facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+				                        <a class="google" target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+				                        <a class="pinterest" target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+				                        <a class="dribbble" target="_blank" href="#"><i class="fa fa-dribbble"></i></a>
+				                    </div>
+				                </div>
+			                </div>
+						</div><!-- /.col-md-4 col-sm-6 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget-nav-menu">
+								<h4 class="widget-title">Our Serives</h4>
+								<ul class="menu-our-services">
+									<li>
+                                        <a href="" title="">ICT Consulting,Solutions & Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Insurance Solutions</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Private Security Solutions</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Transport & Logistics</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">M-Pesa Agencies</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">E-Commerse Solutions</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Corporate Training $ Consultancy</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Real estate development & Restoration</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Retail & Wholesale goods supplies</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Farming & Horticulture</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Corporates solutions outsourcing</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">Corporate suites & Residential accomodations</a>
+                                    </li>
+								</ul><!-- /.menu-our-services -->
+							</div><!-- /.widget widget-nav-menu -->
+						</div><!-- /.col-md-4 col-sm-6 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="widget widget-contact">
+								<h4 class="widget-title">Contact From</h4>
+								<form action="#" method="get" accept-charset="utf-8">
+									<div class="form-ft">
+										<div class="flat-wrap-field">
+											<div class="flat-one-half">
+												<input type="text" name="your name" placeholder="Name" required="">
+											</div>
+											<div class="flat-one-half">
+												<input type="email" name="your email" placeholder="Email" required="">
+											</div>
+										</div>
+										<p>
+											<textarea name="your-message" cols="40" rows="10" placeholder="Message"></textarea>
+										</p>
+										<p>
+											<button type="button" class="btn-contact-ft">Send Message</button>
+										</p>
+									</div><!-- /.form-ft -->
+								</form><!-- /form -->
+							</div><!-- /.widget widget-contact -->
+						</div><!-- /.col-md-4 col-sm-6 -->
+					</div><!-- /.footer-widgets -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</footer><!-- /footer -->
+
+		<section class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							<p>Coyright <i class="fa fa-copyright"></i>Mashariki Limited Kenya. All rights reserved.</p>
+						</div><!-- /.copyright -->
+						<a class="go-top">
+                            <i class="fa fa-chevron-up"></i>
+                        </a><!-- /.go-top -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.footer-bottom -->
+
+		</div><!-- boxed -->
+
+		<!-- Javascript -->
+	    <script type="text/javascript" src="../static/javascript/jquery.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/easing.js"></script>
+	    <script type="text/javascript" src="../static/javascript/parallax.js"></script>
+	    <script type="text/javascript" src="../static/javascript/waypoints.min.js"></script>
+	    <script type="text/javascript" src="../static/javascript/jquery.flexslider-min.js"></script>
+    	<script type="text/javascript" src="../static/javascript/owl.carousel.js"></script>
+
+    	<script type="text/javascript" src="../static/javascript/jquery.cookie.js"></script>
+    	<script type="text/javascript" src="../static/javascript/switcher.js"></script>
+
+	    <script type="text/javascript" src="../static/javascript/smoothscroll.js"></script>
+	    <script type="text/javascript" src="../static/javascript/main.js"></script>
+
+	</body>
+
+<!-- Mirrored from corpthemes.com/html/dhc/services-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Nov 2018 09:32:59 GMT -->
+</html>
