@@ -1,11 +1,22 @@
 from flask import Flask, render_template
-
+from flask_wtf import  FlaskForm
+from wtforms import StringField,PasswordField
 app = Flask(__name__)
+app.config['SECRET_KEY']='Thisisasecret!'
+
+class contactform(FlaskForm):
+    Name=StringField('Name')
+    Email=StringField('Email')
+    PhoneNumber=StringField('Phone Number')
+    Message=StringField('Message')
 
 
-@app.route('/')
+@app.route('/', methods=['GET' ,'POST'])
 def home():
-    return render_template('home.html')
+    form=contactform()
+    if form.validate_on_submit():
+        return 'Your form has been submitted!'
+    return render_template('home.html' , form=form)
 
 @app.route('/about')
 def about():
